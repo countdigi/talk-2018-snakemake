@@ -4,8 +4,7 @@ lass: top
 
 <br/>
 Kevin Counts<br/>
-Bioinformatics Engineering<br/><br/>
-
+Bioinformatics Engineering<br/>
 Health Informatics Institute<br/>
 University of South Florida<br/>
 <https://www.hii.usf.edu/>
@@ -103,7 +102,23 @@ To generate diagram:
 
 *Note `dot` is part of the [Graphviz](https://www.graphviz.org/) package*
 
+---
 
+## Thank You
+
+<br/>
+Kevin Counts<br/>
+Bioinformatics Engineering<br/>
+Health Informatics Institute<br/>
+University of South Florida<br/>
+<https://www.hii.usf.edu/>
+
+----
+
+Email: <kevin.counts@hii.usf.edu>
+
+Presentation available at:<br/>
+<https://github.com/countdigi/talk-2018-snakemake>
 
 
 
