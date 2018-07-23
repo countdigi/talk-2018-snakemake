@@ -91,6 +91,18 @@ A nice example is available here:
 
 <http://slowkow.com/notes/snakemake-tutorial/>
 
+---
+
+### Example DAG Diagram
+
+To generate diagram:
+
+`$ snakemake --forceall --dag | dot -Tpng > DAG.png`
+
+![Snakemake Logo](images/dag.png)
+
+*Note `dot` is part of the [Graphviz](https://www.graphviz.org/) package*
+
 
 
 
