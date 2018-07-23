@@ -1,21 +1,16 @@
 # Snakemake
 
-## Overview
-
-- Snakemake is a tool to create reproducible and scalable data analyses
-
-- Workflows described via human readable, Python based language
-
-- Snakemake workflows (Snakefile) are Python scripts extended by declaritive code to define:
-  - Rules
-  - Output Files
-  - INput Files
-
+Slides at: <https://countdigi.github.io/talk-2018-snakemake>
 
 ## Resources
+
+- [TEDDY Human WGS Snakemake Example](https://github.com/countdigi/snakemake-human-wgs-example)
+
+- [Miniconda](https://conda.io/miniconda.html)
 
 - [Snakemake Documentation](http://snakemake.readthedocs.io/en/stable/index.html)
 
 - [Snakemake Tutorial](http://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html)
 
 - [Snakemake Tutorial, Unofficial ](http://slowkow.com/notes/snakemake-tutorial/)
+
