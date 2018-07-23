@@ -104,6 +104,17 @@ To generate diagram:
 
 ---
 
+### Example DAG Diagram 2
+
+To generate diagram:
+
+`$ snakemake -s Snakefile.2 --forceall --dag | dot -Tpng > DAG2.png`
+
+![Snakemake Logo](images/dag2.png)
+
+
+---
+
 ## Thank You
 
 <br/>
