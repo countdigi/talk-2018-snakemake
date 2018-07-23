@@ -1,0 +1,27 @@
+SAMPLES = ['A', 'B']
+
+rule all:
+    input:
+        'work/collate_outputs/test.txt'
+
+rule quantify_genes:
+    input:
+        genome = 'data/ref/genome.fa',
+        r1 = 'data/fastq/{sample}.R1.fastq.gz',
+        r2 = 'data/fastq/{sample}.R2.fastq.gz'
+    output:
+        'work/quantify_genes/{sample}.txt'
+    shell:
+        'echo {input.genome} {input.r1} {input.r2} > {output}'
+
+rule collate_outputs:
+    input:
+        expand('work/quantify_genes/{sample}.txt', sample=SAMPLES)
+    output:
+        'work/collate_outputs/test.txt'
+    run:
+        with open(output[0], 'w') as out:
+            for i in input:
+                sample = i.split('.')[0]
+                for line in open(i):
+                    out.write(sample + ' ' + line)
